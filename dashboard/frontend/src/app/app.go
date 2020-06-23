@@ -1,8 +1,8 @@
 package app
 
 import (
-	"github.com/seanrmurphy/go-vecty-experiments/frontend/src/app/model"
-	"github.com/seanrmurphy/go-vecty-experiments/frontend/src/app/util"
+	"github.com/seanrmurphy/go-vecty-experiments/dashboard/frontend/src/app/model"
+	"github.com/seanrmurphy/go-vecty-experiments/dashboard/frontend/src/app/util"
 )
 
 var (
