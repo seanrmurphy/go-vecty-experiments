@@ -1,0 +1,92 @@
+header {
+  color: azure;
+  background-color: DimGray;
+  height: 50px;
+  padding: 20px 10px 20px 10px ;
+  font-family: monospace;
+}
+
+body {
+  color: azure;
+  background-color: GhostWhite;
+  height: 100%;
+  font-family: monospace;
+}
+
+header h1 {
+  margin-bottom: 0rem;
+}
+
+aside.menu {
+  background-color: DimGray;
+  height: 100%;
+  width: 150px;
+  display: inline-block;
+  /*flex-direction: column;*/
+}
+
+aside ul.menu-list li {
+  padding: 10px 10px 10px 10px ;
+}
+
+aside ul.menu-list li:hover {
+  background-color: white;
+  color: DimGray;
+}
+
+.main-section {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+}
+
+section.main-area {
+  height: 100%;
+  width: 100%;
+}
+
+.main-panel {
+  flex: 1;
+  display: block block;
+  width: max-width;
+  height: 100%;
+}
+
+.main-panel h1 {
+  color: DimGray;
+  margin: 20px;
+}
+
+.chart-panels {
+  display: block flow;
+}
+
+.chart-label {
+  color: DimGray;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section .content-panel {
+  width: 400px;
+  height: 400px;
+  display: inline grid;
+}
+
+section .chart-panel {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section .chart-panel .svg-image {
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: lightgray;
+}
+
+
