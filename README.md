@@ -21,7 +21,6 @@ project.
     - `cd $GOPATH/src/github.com/seanrmurphy/go-vecty-experiments`
     - `./install_dependencies.sh`
 
-
 # Running the Application
 
 - Build the frontend
@@ -29,7 +28,7 @@ project.
 - Run the server
     - `./server.py`
     - This should run the server on port 4443 on all interfaces on the host
-- Point a browser at `<hostname/hostip>:4443/`
+- Point a browser at `https://<hostname/hostip>:4443/`
     - You will probably have to tell your browser you trust the self signed certificate
 
 # Video
